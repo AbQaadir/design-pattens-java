@@ -1,9 +1,9 @@
-package org.example;
+package org.example.adoptorDesignPattern;
 
-import org.example.adapotor.JPGAdaptor;
-import org.example.adapotor.PNGAdaptor;
-import org.example.images.JPGMediaPlayer;
-import org.example.images.PNGMediaPlayer;
+import org.example.adoptorDesignPattern.adapotor.JPGAdaptor;
+import org.example.adoptorDesignPattern.adapotor.PNGAdaptor;
+import org.example.adoptorDesignPattern.images.JPGMediaPlayer;
+import org.example.adoptorDesignPattern.images.PNGMediaPlayer;
 
 public class MediaPlayerFactory {
     public MediaPlayer createMediaPlayer(String filePath) {

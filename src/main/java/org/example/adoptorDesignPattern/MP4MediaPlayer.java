@@ -1,4 +1,4 @@
-package org.example;
+package org.example.adoptorDesignPattern;
 
 public class MP4MediaPlayer implements MediaPlayer {
     @Override

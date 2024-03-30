@@ -1,7 +1,7 @@
-package org.example.adapotor;
+package org.example.adoptorDesignPattern.adapotor;
 
-import org.example.MediaPlayer;
-import org.example.images.JPGMediaPlayer;
+import org.example.adoptorDesignPattern.MediaPlayer;
+import org.example.adoptorDesignPattern.images.JPGMediaPlayer;
 
 public class JPGAdaptor implements MediaPlayer {
     private final JPGMediaPlayer jpgMediaPlayer;

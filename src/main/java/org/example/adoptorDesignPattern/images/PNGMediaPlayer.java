@@ -1,6 +1,4 @@
-package org.example.images;
-
-import org.example.MediaPlayer;
+package org.example.adoptorDesignPattern.images;
 
 public class PNGMediaPlayer implements ImageViewer {
     @Override
